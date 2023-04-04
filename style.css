@@ -1,0 +1,43 @@
+header {
+    
+    position: fixed;
+    top: 1px;
+    width: 100%;
+    padding: 10px;
+    margin: none;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: xx-large;
+    display: flex;
+    background-color: red;
+    border: 5px solid red;
+    color: white;
+
+}
+body{
+    position: relative;
+    top: 90px;
+}
+
+.fm h1 {
+    font-family: 'poppins';
+    font-size: x-large;
+    font-weight: 700px;
+    padding: 15px
+
+}
+
+#head {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: large;
+    padding: 10px 0px 0px 20px
+}
+
+#para {
+    font-family: 'poppins';
+    font-size: medium;
+    font-weight: 300;
+    padding: 10px 0px 0px 20px
+}
