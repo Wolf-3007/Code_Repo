@@ -31,9 +31,11 @@
 .sq {
     z-index: 1;
     position: relative;
-    background-color: #9AE6EA;
+    background-color: pink;
+    border-radius: 7px;
+    
 }
-body{
+body {
     position: absolute;
     top: 15%;
     left: 20%;
@@ -59,10 +61,31 @@ body{
     font-family: 'poppins';
     font-size:medium;
     font-weight: 300;
-    padding: 10px 0px 0px 20px
+    padding: 10px 0px 0px 20px;
+
+
 }
 
  img {
     height: 20%;
     width: 20%;
+    display: inline;
+    object-fit: cover;
+    
+}
+
+.list {
+    font-family: 'poppins';
+    font-size: medium;
+    font-weight: 400;
+}
+
+.form {
+    padding: 20px;
+    font-family: "poppins";
+    font-size: medium;
+}
+
+.sq h5 {
+    margin-bottom: 0;
 }
