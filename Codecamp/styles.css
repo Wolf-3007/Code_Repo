@@ -5,7 +5,7 @@ body {
     background-color: #1b1b32;
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 h1,p {
@@ -18,14 +18,50 @@ form {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+    padding-bottom: 2em;
 }
 
 fieldset {
-    border: 0;
+    border: none;
     padding: 2rem 0 ;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: white;
+}
+
+input[type="submit"] {
+    display:block;
+    width: 80%;
+    margin: 1em auto;
+    height: 1em;
+    font-size: 1.1rem;
+    background-color: rgb(110, 110, 110);
+    border-color: rgb(255, 255, 255);
+    min-width: 300px;
+}
+
+.inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
 }
