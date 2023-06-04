@@ -15,7 +15,7 @@ h1,p {
 
 form {
     width: 60vw;
-    max-width: 900px;
+    max-width: 700px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
@@ -23,8 +23,9 @@ form {
 
 fieldset {
     border: none;
-    padding: 2rem 0 ;
+    padding: 2rem 1 ;
     border-bottom: 3px solid #3b3b4f;
+    
 }
 
 fieldset:last-of-type {
